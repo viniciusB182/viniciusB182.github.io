@@ -25205,7 +25205,7 @@ ion-navbar.toolbar {
 }
 
 .main-content {
-  background-color: orange;
+  background-color: #ffb733;
 }
 
 .item-icon {
@@ -25225,7 +25225,7 @@ ion-header {
 }
 
 ion-header .toolbar-background {
-  background-color: orange;
+  background-color: #ffb733;
 }
 
 ion-navbar {
