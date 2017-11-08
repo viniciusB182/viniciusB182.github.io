@@ -25220,6 +25220,10 @@ ion-navbar.toolbar {
   color: #424242;
 }
 
+.scroll-bar-indicator {
+  display: none;
+}
+
 ion-header {
   font-family: 'Handwriting';
 }
@@ -25233,11 +25237,19 @@ ion-navbar {
   font-weight: bold;
 }
 
+ion-content {
+  -webkit-overflow-scrolling: false;
+}
+
 @font-face {
   font-family: 'Handwriting';
   src: url("../assets/font/Handwriting.ttf");
   font-weight: normal;
   font-style: normal;
+}
+
+agm-map {
+  height: 300px;
 }
 
 page-login .main-title .toolbar-title-md {
@@ -25286,6 +25298,26 @@ page-login .title-row {
 }
 
 page-login .form-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.card-title-row {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
